@@ -46,9 +46,7 @@ The modified script differs from H&C's original only by **adding output**, not b
 1. **Intrinsic-fitness logging** — an extra log column,
    `mean(p1.cachedFitness(NULL)) * p1.individualCount / K`, which separates the
    genomic (intrinsic) fitness from the density-dependent scaling.
-2. **Extinction handling** — the run prints a full population dump and stops if the
-   population reaches zero, and emits a near-extinction full dump (for allele-frequency
-   spectra) when the population drops below five individuals.
+2. **Extinction handling** — the run emits a full population dump the first time the population drops below five individuals (the near-extinction state, used for allele-frequency spectra at collapse), and prints a notice and halts if the population reaches zero.
 
 All DFE parameters (deleterious gamma mean and shape, beneficial exponential mean, the deleterious:beneficial fraction in the genomic element, the dominance coefficient, and the run duration) are set inline in the script and were edited per run as described in the manuscript. Deleterious (`m2`) and beneficial (`m3`) mutation types use `convertToSubstitution = F`, so fixed mutations remain listed in the output (see "Counting fixations" below).
 
