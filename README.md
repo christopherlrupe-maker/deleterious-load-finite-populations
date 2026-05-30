@@ -5,7 +5,7 @@
 Christopher Rupe — Independent Researcher, Cleveland, Ohio, USA
 ORCID: [0009-0007-8497-4257](https://orcid.org/0009-0007-8497-4257)
 
-This repository contains the SLiM simulation scripts, raw simulation output, analysis/plotting scripts, and figures supporting the manuscript submitted to the *Journal of Mathematical Biology*.
+This repository contains the SLiM simulation scripts, raw simulation output, and analysis/plotting scripts supporting the manuscript submitted to the *Journal of Mathematical Biology*.
 
 ---
 
@@ -32,7 +32,6 @@ All simulations use a finite diploid population (K = 1,000) under a non-Wright�
 | `Dominance/` | Runs varying the dominance coefficient (h). |
 | `Combined Runs/` | Combined-parameter runs (e.g., shape + mean + beneficial rate together). |
 | `R Scripts/` | Plotting and DFE-analysis scripts (see below). |
-| `jmb_paper_files_Figures and Tables/` | Final figures and tables as they appear in the manuscript. |
 
 > **Note on file naming.** Each experiment folder contains run logs (`*.txt` with a `cycle, Population_size, …` header) and, where allele-frequency spectra were needed, full-output dumps (`*_Full_Output*.txt`). Run logs and full-output files that share a base name come from the same run. Files with identical names duplicated across folders are byte-identical copies of the same run.
 
@@ -113,10 +112,9 @@ This repository is dual-licensed so each part carries the license designed for i
 
 - **Code** — the modified SLiM script and the R analysis/plotting scripts — is released
   under the **MIT License** (see `LICENSE`).
-- **Data and figures** — the simulation output files and the figures/tables prepared for
-  the manuscript — are released under the **Creative Commons Attribution 4.0
-  International License (CC BY 4.0)** (see `LICENSE-CC-BY-4.0.txt`). Reuse is free,
-  including commercially, with attribution.
+- **Data** — the simulation output files — are released under the **Creative Commons
+  Attribution 4.0 International License (CC BY 4.0)** (see `LICENSE-CC-BY-4.0.txt`).
+  Reuse is free, including commercially, with attribution.
 
 Neither license extends to the H&C-origin files described under *Provenance and
 attribution* above, which remain the work of their original authors.
