@@ -56,7 +56,7 @@ All DFE parameters (deleterious gamma mean and shape, beneficial exponential mea
 slim gen_entropy_test_intrinsic_fitness_and_extinction_output_added.slim
 ```
 
-Edit the parameter lines at the top of the script (and the terminal-generation block) to reproduce a specific run.
+Edit the lines tagged EDIT FOR VARIANT in the script.
 
 ---
 
