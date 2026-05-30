@@ -2,19 +2,19 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 SPDX-License-Identifier: CC-BY-4.0
 
 SCOPE
-This license applies to the research DATA and FIGURES in this repository: the SLiM
-simulation output files generated for this study and the figures/tables prepared for
-the associated manuscript. The repository's CODE (the modified SLiM script and the R
-scripts) is licensed separately under the MIT License (see LICENSE). This license does
-NOT apply to the third-party files described in the README under "Provenance and
-attribution" (the original Hancock & Cardinale SLiM script and their published output).
+This license applies to the research DATA in this repository: the SLiM
+simulation output files generated for this study. The repository's CODE (the
+modified SLiM script and the R scripts) is licensed separately under the MIT
+License (see LICENSE). This license does NOT apply to the third-party files
+described in the README under "Provenance and attribution" (the original
+Hancock & Cardinale SLiM script and their published output).
 
 GRANT
 Copyright (c) 2026 Christopher Rupe.
-The data and figures covered by this file are licensed under the Creative Commons
-Attribution 4.0 International License. You are free to share and adapt this material for
-any purpose, including commercially, provided you give appropriate credit.
-
+The data covered by this file are licensed under the Creative Commons
+Attribution 4.0 International License. You are free to share and adapt this
+material for any purpose, including commercially, provided you give appropriate
+credit.
 The full legal text of this license is available at:
     https://creativecommons.org/licenses/by/4.0/legalcode
 and a human-readable summary at:
@@ -22,10 +22,10 @@ and a human-readable summary at:
 
 ATTRIBUTION
 When reusing this material, please credit it substantially as follows:
-    Rupe, C. (2026). Simulation data and figures for "Selection Breakdown Beyond the
+    Rupe, C. (2026). Simulation data for "Selection Breakdown Beyond the
     Effectively-Neutral Zone." Licensed under CC BY 4.0.
-including, where practicable, a link to the material, this license, and an indication
-of any changes made.
+including, where practicable, a link to the material, this license, and an
+indication of any changes made.
 
 DISCLAIMER
 Unless otherwise stated, the material is offered as-is and as-available, and the
