@@ -4,10 +4,9 @@ Copyright (c) 2026 Christopher Rupe
 
 This license applies to the CODE in this repository: the modified SLiM script
 (gen_entropy_test_intrinsic_fitness_and_extinction_output_added.slim) and the R
-analysis and plotting scripts. The research DATA and FIGURES (simulation output files
-and the figures/tables prepared for the associated manuscript) are licensed separately
-under the Creative Commons Attribution 4.0 International License; see
-LICENSE-CC-BY-4.0.txt.
+analysis and plotting scripts. The research DATA in this repository (the simulation
+output files) are licensed separately under the Creative Commons Attribution 4.0
+International License; see LICENSE-CC-BY-4.0.txt.
 
 It does NOT apply to third-party files included for reference and reproducibility,
 namely the original SLiM script and the published simulation outputs of
