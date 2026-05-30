@@ -39,7 +39,7 @@ All simulations use a finite diploid population (K = 1,000) under a non-Wright�
 
 ## SLiM scripts
 
-Both scripts target **SLiM 4.x** (non-Wright–Fisher model; `initializeSLiMModelType("nonWF")`).
+Both scripts target **SLiM 4.0.1** (non-Wright–Fisher model; `initializeSLiMModelType("nonWF")`).
 
 The modified script differs from H&C's original only by **adding output**, not by changing the model:
 
