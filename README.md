@@ -5,13 +5,13 @@
 Christopher Rupe — Independent Researcher, Cleveland, Ohio, USA
 ORCID: [0009-0007-8497-4257](https://orcid.org/0009-0007-8497-4257)
 
-This repository contains the SLiM simulation scripts, raw simulation output, and analysis/plotting scripts supporting the manuscript submitted to the *Journal of Mathematical Biology*.
+This repository contains the SLiM simulation scripts, raw simulation output, and analysis/plotting scripts supporting the associated manuscript.
 
 ---
 
 ## Overview
 
-The study evaluates the distribution-of-fitness-effects (DFE) parameters used by Hancock & Cardinale (2024, "H&C") in their forward-time response to Basener & Sanford (2018). Using H&C's own SLiM script, one parameter at a time was changed to values drawn from the mainstream population-genetics literature. Under empirically supported DFE parameters — even the most conservative published estimates — fitness trajectories decline and populations move toward extinction, with 93–99% of deleterious fixations falling within the effectively-neutral zone (ENZ) and selection-breakdown zone (SBZ).
+This study examines deleterious fixation dynamics across the empirically supported range of distribution-of-fitness-effects (DFE) parameters in finite populations. The analysis is motivated by Hancock & Cardinale (2024, "H&C"), who argued that empirically supported parameters permit population persistence in their forward-time response to Basener & Sanford (2018). Using H&C's own SLiM script as a starting point, one parameter at a time was changed to values drawn from the mainstream population-genetics literature. Under empirically supported DFE parameters — even the most conservative published estimates — fitness trajectories decline and populations move toward extinction, with 93–99% of deleterious fixations falling within the effectively-neutral zone (ENZ) and selection-breakdown zone (SBZ).
 
 All simulations use a finite diploid population (K = 1,000) under a non-Wright–Fisher model with density-dependent regulation.
 
